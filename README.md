@@ -1,25 +1,23 @@
-# Personal Portfolio Project - Booking
+# Personal Portfolio Project - Live News
 
-![Booking](https://github.com/ilgarcia/Portfolio-LiveNews/assets/60369262/7871c31e-5459-48f8-a446-b547f5a01ede)
+![Live News](https://github.com/ilgarcia/Portfolio-LiveNews/assets/60369262/030de246-1a2d-4f44-9a24-081b1d290ea6)
 
 ## Description
 
-This is a project for educational purpose cloning the booking site... the idea of this project is to use Oxylabs to webscraping.
+I create this project to work with GraphQL using stepzen to fetch the data, and to create the api data I used the [Mediastack](https://mediastack.com/) for a free, simple REST API for
+Live News & Blog Articles.
 
 ## Features
 
-- Responsive design for various screen sizes.
-- Dynamic content rendering using React components.
-- Scraping data with Oxylabs
+- GraphQL using stepzen.
+- Scalable JSON API from Mediastack .
 
 ## Technologies Used
 
 - React
 - Next.js
 - Tailwind
-- Shadcn
 - Tailwind
-- Scrape data with Oxylabs
 
 ## Getting Started
 
@@ -38,13 +36,25 @@ Follow these instructions to get a copy of the project up and running on your lo
    npm install
    ```
 
-3. **Run the development server:**
+3. **Environment Variables**
+
+   Create file .env.local and add he folowing environment variables
+
+   - STEPZEN_API_KEY=(value)
+   - MEDIASTACK_API_KEY=(value)
+
+   link to create account and getting stepzen api key - [link](https://stepzen.com/)
+   
+   link to create account and getting mediastack api key - [link](https://mediastack.com/)
+
+5. **Run the development server:**
 
    ```bash
    npm run dev
    ```
 
 *The app will be accessible with your browser at[http://localhost:3000](http://localhost:3000).*
+
 
 ## Deployment
 
@@ -58,7 +68,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Acknowledgments
 
-* Project idea - [Sonny Sangha](https://www.youtube.com/watch?v=SnJ6EmCWA_Y&t=6476s) 
+* [Stepzen](https://stepzen.com/)
+* [Mediastack](https://mediastack.com/)
 
 ## License
 
