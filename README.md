@@ -1,22 +1,25 @@
 # Personal Portfolio Project - Booking
 
+![Booking](https://github.com/ilgarcia/Portfolio-LiveNews/assets/60369262/7871c31e-5459-48f8-a446-b547f5a01ede)
+
 ## Description
 
-This is a personal portfolio website built using React. It serves as a showcase for your skills, projects, and experiences. The project is designed to be easily customizable and can be used by developers, designers, or anyone looking to create a personalized online presence.
+This is a project for educational purpose cloning the booking site... the idea of this project is to use Oxylabs to webscraping.
 
 ## Features
 
 - Responsive design for various screen sizes.
 - Dynamic content rendering using React components.
-- Easily customizable sections for projects, skills, and experiences.
-- Contact form for visitors to get in touch with you.
+- Scraping data with Oxylabs
 
 ## Technologies Used
 
 - React
-- HTML5
-- CSS3
-- [Additional libraries or tools if any]
+- Next.js
+- Tailwind
+- Shadcn
+- Tailwind
+- Scrape data with Oxylabs
 
 ## Getting Started
 
@@ -38,7 +41,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 3. **Run the development server:**
 
    ```bash
-   npm start
+   npm run dev
    ```
 
 *The app will be accessible with your browser at[http://localhost:3000](http://localhost:3000).*
@@ -55,8 +58,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Acknowledgments
 
-* [Any external libraries or resources used]
-* [Inspiration or references]
+* Project idea - [Sonny Sangha](https://www.youtube.com/watch?v=SnJ6EmCWA_Y&t=6476s) 
 
 ## License
 
