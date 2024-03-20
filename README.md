@@ -16,7 +16,7 @@ Live News & Blog Articles.
 
 - React
 - Next.js
-- Tailwind
+- GraphQL
 - Tailwind
 
 ## Getting Started
